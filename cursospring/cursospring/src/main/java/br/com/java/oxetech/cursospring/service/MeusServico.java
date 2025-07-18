@@ -1,9 +1,10 @@
 package br.com.java.oxetech.cursospring.service;
 
-public class MeusServico {
+import org.springframework.stereotype.Component;
 
-    public void executar(){
-        System.out.println("Estou exetutando");
+@Component
+public class MeusServico {
+    public void executar() {
+        System.out.println("Estou executando");
     }
-    
 }
