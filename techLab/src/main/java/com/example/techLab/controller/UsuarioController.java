@@ -30,7 +30,8 @@ public class UsuarioController {
     @GetMapping
     public ResponseEntity<List<Usuario>> listarusuario(){
         return ResponseEntity.ok(usuarioRepository.findAll());
-    }
 
-    
+    }
 }
+
+   
