@@ -23,6 +23,7 @@ public class Usuario {
         this.nome = nome;
         this.email = email;
     }
+
     public Long getId() {
         return id;
     }
